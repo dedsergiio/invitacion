@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: none;
+    /*font-size: xx-large;
+    padding: 0.75em;*/
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+
+button:hover{
+    background: #fff;
+    color: #2D31FA;
+}
